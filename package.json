@@ -33,8 +33,5 @@
     "es7-shim": "6.0.0",
     "blueimp-canvastoblob": "2.1.0",
     "cordova-paramedic": "https://github.com/apache/cordova-paramedic.git"
-  },
-  "dependencies": {
-    "async": "^2.1.4"
   }
 }
