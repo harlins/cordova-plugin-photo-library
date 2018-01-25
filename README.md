@@ -42,8 +42,8 @@ requestAuthorization is cross-platform method, that works in following way:
 - On ios, on first call will open permission prompt. If user denies it subsequent calls will open setting page of your app, where user should enable access to Photos.
 
 ## Credits
-Original plugin: https://github.com/terikon/cordova-plugin-photo-library
-ios11 compat pull request: https://github.com/terikon/cordova-plugin-photo-library/pull/117
+* Original plugin: https://github.com/terikon/cordova-plugin-photo-library
+* ios11 compat pull request: https://github.com/terikon/cordova-plugin-photo-library/pull/117
 
 ## License 
 
