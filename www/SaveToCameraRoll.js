@@ -51,7 +51,7 @@ saveToCameraRoll.saveVideo = function (url, album, success, error) {
 
 };
 
-module.exports = photoLibrary;
+module.exports = saveToCameraRoll;
 
 var getRequestAuthenticationOptionsWithDefaults = function (options) {
 
