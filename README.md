@@ -10,12 +10,12 @@ cordova plugin add cordova-plugin-save-to-camera-roll
 ``` js
 var url = 'file:///...'; // file or remote URL. url can also be dataURL, but giving it a file path is much faster
 var album = 'MyAppName';
-cordova.plugins.saveToCameraRoll.saveImage(url, album, function (libraryItem) {}, function (err) {});
+cordova.plugins.saveToCameraRoll.saveImage(url, album, function (cameraRollAssetId) {}, function (err) {});
 ```
 
 ```js
 // iOS quirks: video provided cannot be .webm . Use .mov or .mp4 .
-cordova.plugins.saveToCameraRoll.saveVideo(url, album, function () {}, function (err) {});
+cordova.plugins.saveToCameraRoll.saveVideo(url, album, function (cameraRollAssetId) {}, function (err) {});
 ```
 
 saveImage and saveVideo both need write permission to be granted by requestAuthorization.
